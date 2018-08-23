@@ -1,0 +1,12 @@
+{
+  "name": "guii.io",
+  "description": "guii website",
+  "version": "0.0.0",
+  "author": "Jeremiah Montoya",
+  "keywords": ["guii"],
+  "license": "MIT",
+  "main": "n/a",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {}
+}
