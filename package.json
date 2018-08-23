@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"],
+    "nohoist": [
+      "**/react-scripts/",
+      "**/react-scripts/**",
+      "**/react-native",
+      "**/react-native/**",
+      "**/electron",
+      "**/electron/**",
+      "**/jest",
+      "**/jest/**"
+    ]
+  }
+}
