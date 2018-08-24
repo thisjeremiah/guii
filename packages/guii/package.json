@@ -1,6 +1,17 @@
 {
   "name": "guii",
+  "private": true,
   "description": "UI Toolkit",
   "version": "0.0.0",
-  "author": "Jeremiah Montoya"
+  "author": "Jeremiah Montoya",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "tslint"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
 }
