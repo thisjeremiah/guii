@@ -1,0 +1,30 @@
+{
+  "name": "guii-storybook",
+  "private": true,
+  "description": "Storybook for Guii",
+  "version": "0.0.0",
+  "author": "Jeremiah Montoya",
+  "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook -c .storybook -o dist"
+  },
+  "dependencies": {
+    "guii-design-system": "^0.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "4.0.0-alpha.9",
+    "@storybook/addon-knobs": "4.0.0-alpha.9",
+    "@storybook/react": "4.0.0-alpha.9",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "@types/storybook__react": "^3.0.9",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "ts-loader": "^4.5.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}

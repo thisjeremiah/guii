@@ -1,3 +1,5 @@
-import { a } from 'guii'
+import { a as ac } from 'guii'
 
-console.log(a())
+export function a() {
+  return '{' + ac() + '}'
+}

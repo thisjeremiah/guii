@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./packages",
     "paths": {
-      "guii": ["./guii/src"]
+      "guii": ["./guii/src"],
+      "guii*": ["./guii*/src"]
     }
   }
 }
