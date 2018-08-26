@@ -1,10 +1,7 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "baseUrl": "./packages",
-    "paths": {
-      "guii": ["./guii/src"],
-      "guii*": ["./guii*/src"]
-    }
-  }
+  "files": [],
+  "references": [
+    { "path": "packages/guii" },
+    { "path": "packages/guii-design-system" }
+  ]
 }

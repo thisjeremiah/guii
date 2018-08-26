@@ -1,2 +1,3 @@
-import App from './build/guii-expo/src/App'
+import App from './build/App'
+
 export default App

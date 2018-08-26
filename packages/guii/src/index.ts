@@ -1,1 +1,1 @@
-export const a = () => 'zzz'
+export const a = () => '000'

@@ -1,9 +1,11 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.build.json",
   "compilerOptions": {
+    "rootDir": "src",
     "outDir": "build",
     "jsx": "react"
   },
+  "references": [{ "path": "../guii-design-system" }],
   "types": ["react", "react-dom", "react-native"],
   "exclude": ["node_modules", "build", "jest.config.js", "./App.js"]
 }

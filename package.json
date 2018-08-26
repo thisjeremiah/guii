@@ -2,22 +2,7 @@
   "private": true,
   "workspaces": {
     "packages": ["packages/*"],
-    "nohoist": [
-      "**/react-scripts/",
-      "**/react-scripts/**",
-      "**/react-native",
-      "**/react-native/**",
-      "**/react-native-scripts",
-      "**/react-native-scripts/**",
-      "**/expo",
-      "**/expo/**",
-      "**/electron",
-      "**/electron/**",
-      "**/jest",
-      "**/jest/**",
-      "**/jest-expo",
-      "**/jest-expo/**"
-    ]
+    "nohoist": []
   },
   "scripts": {
     "clean": "rimraf packages/**/lib"

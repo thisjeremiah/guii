@@ -4,6 +4,8 @@
   "description": "Design System for guii",
   "version": "0.0.0",
   "author": "Jeremiah Montoya",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "watch": "nodemon --watch src -e ts,tsx --exec ts-node -r tsconfig-paths/register src/index.ts",
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
