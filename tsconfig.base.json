@@ -19,6 +19,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "strictPropertyInitialization": false,
-    "noErrorTruncation": true
+    "noErrorTruncation": true,
+    "skipLibCheck": true
   }
 }

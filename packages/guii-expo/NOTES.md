@@ -1,0 +1,1 @@
+- Converting sibling folder output in `build` folder to a `node_modules/<module>` makes compilation work, since the library is not searched for in `node_modules`.

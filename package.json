@@ -7,10 +7,16 @@
       "**/react-scripts/**",
       "**/react-native",
       "**/react-native/**",
+      "**/react-native-scripts",
+      "**/react-native-scripts/**",
+      "**/expo",
+      "**/expo/**",
       "**/electron",
       "**/electron/**",
       "**/jest",
-      "**/jest/**"
+      "**/jest/**",
+      "**/jest-expo",
+      "**/jest-expo/**"
     ]
   },
   "scripts": {
