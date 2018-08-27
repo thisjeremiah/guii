@@ -1,5 +1,4 @@
 {
-  "files": [],
   "references": [
     { "path": "packages/guii" },
     { "path": "packages/guii-design-system" }

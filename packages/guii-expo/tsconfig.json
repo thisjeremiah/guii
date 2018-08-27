@@ -7,5 +7,12 @@
   },
   "references": [{ "path": "../guii-design-system" }],
   "types": ["react", "react-dom", "react-native"],
-  "exclude": ["node_modules", "build", "jest.config.js", "./App.js"]
+  "exclude": [
+    "**/__mocks__/*",
+    "../../node_modules",
+    "node_modules",
+    "build",
+    "jest.config.js",
+    "./App.js"
+  ]
 }
