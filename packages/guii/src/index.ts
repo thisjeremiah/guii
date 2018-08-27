@@ -1,1 +1,1 @@
-export const a = () => '333'
+export const a = () => 'a'
