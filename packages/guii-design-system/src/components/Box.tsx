@@ -37,5 +37,5 @@ export const Box = styled<BoxProps>(View)`
   ${flex};
   ${order};
   ${alignSelf};
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 `

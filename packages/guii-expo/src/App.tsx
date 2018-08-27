@@ -1,22 +1,18 @@
 import * as React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import { a } from 'guii-design-system'
+import { Text } from 'react-native'
+import { Box, Flex } from 'guii-design-system'
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>{'r' + a()}</Text>
-      </View>
+      <Flex bg="green" flexWrap="wrap">
+        <Box bg="red" p={3} width={[1, 1 / 2]}>
+          <Text>ABC</Text>
+        </Box>
+        <Box bg="yellow" p={3} width={[1, 1 / 2]}>
+          <Text>DEF</Text>
+        </Box>
+      </Flex>
     )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-})

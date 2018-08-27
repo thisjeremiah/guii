@@ -19,7 +19,6 @@ export interface FlexProps
     JustifyContentProps,
     BoxProps {}
 
-// Why do I need this?
 export const Flex = styled(Box)`
   ${flexWrap};
   ${flexDirection};
