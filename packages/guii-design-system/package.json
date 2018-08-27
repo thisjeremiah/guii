@@ -13,9 +13,7 @@
     "build": "tsc",
     "lint": "tslint"
   },
-  "peerDependencies": {
-    "guii": "^0.0.0"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@types/react-primitives": "^0.6.1",
     "@types/styled-system": "^3.0.3",

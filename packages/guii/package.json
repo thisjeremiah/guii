@@ -12,6 +12,11 @@
     "build": "tsc",
     "lint": "tslint"
   },
+  "dependencies": {
+    "guii": "^0.0.0",
+    "react": "^16.4.2",
+    "react-primitives": "^0.6.0"
+  },
   "devDependencies": {
     "@types/jest": "^23.3.1",
     "jest": "^23.5.0",
