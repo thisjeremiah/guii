@@ -17,6 +17,8 @@
     "guii": "^0.0.0"
   },
   "devDependencies": {
+    "@types/react-primitives": "^0.6.1",
+    "@types/styled-system": "^3.0.3",
     "nodemon": "^1.18.3",
     "ts-node": "^7.0.1",
     "tsconfig-paths": "^3.5.0",
@@ -24,7 +26,8 @@
     "typescript": "^3.0.1"
   },
   "dependencies": {
+    "react-primitives": "^0.6.0",
     "styled-components": "^3.4.5",
-    "system-components": "^3.0.0"
+    "styled-system": "^3.0.2"
   }
 }
