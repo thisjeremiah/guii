@@ -1,15 +1,19 @@
 import * as React from 'react'
 
-import { Box } from 'guii-design-system'
+import { Flex, Box } from 'guii-design-system'
 import { Text } from 'react-primitives'
 
 import { storiesOf } from '@storybook/react'
-// import * as knobs from '@storybook/addon-knobs'
 
 storiesOf('View', module).add('View', () => {
   return (
-    <Box bg="green" p={3} width={250}>
-      <Text style={{ color: 'white' }}>OK GOODNIGHT</Text>
-    </Box>
+    <Flex bg="green" flexWrap="wrap">
+      <Box bg="red" p={3} width={[1, 1 / 2]}>
+        <Text>Consistent</Text>
+      </Box>
+      <Box bg="yellow" p={3} width={[1, 1 / 2]}>
+        <Text>Flexible</Text>
+      </Box>
+    </Flex>
   )
 })

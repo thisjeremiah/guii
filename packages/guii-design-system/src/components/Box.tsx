@@ -1,24 +1,41 @@
 import { View } from 'react-primitives'
 import styled from 'styled-components'
 import {
-  color,
-  ColorProps,
-  space,
-  SpaceProps,
   width,
   WidthProps,
+  space,
+  SpaceProps,
+  fontSize,
+  FontSizeProps,
+  color,
+  ColorProps,
+  flex,
+  FlexProps,
+  order,
+  OrderProps,
+  alignSelf,
+  AlignSelfProps,
 } from 'styled-system'
 import { ExtractProps } from '../utils'
 
 type ViewProps = ExtractProps<typeof View>
 export interface BoxProps
-  extends ColorProps,
+  extends WidthProps,
     SpaceProps,
-    WidthProps,
+    FontSizeProps,
+    ColorProps,
+    FlexProps,
+    OrderProps,
+    AlignSelfProps,
     ViewProps {}
 
 export const Box = styled<BoxProps>(View)`
-  ${color};
-  ${space};
   ${width};
+  ${space};
+  ${fontSize};
+  ${color};
+  ${flex};
+  ${order};
+  ${alignSelf};
+  box-sizing: border-box;
 `
