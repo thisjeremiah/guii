@@ -16,4 +16,5 @@ module.exports = {
     'android.ts',
     'android.tsx',
   ],
+  testPathIgnorePatterns: ['/build/.*'],
 }

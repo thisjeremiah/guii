@@ -11,4 +11,5 @@ module.exports = {
       tsConfigFile: 'tsconfig.jest.json',
     },
   },
+  testPathIgnorePatterns: ['/lib/.*'],
 }
