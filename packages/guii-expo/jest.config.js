@@ -1,10 +1,5 @@
 module.exports = {
   preset: 'react-native',
-  // testPathIgnorePatterns: ['/node_modules/', '../../node_modules/'],
-  // modulePathIgnorePatterns: [
-  // '<rootDir>/node_modules/',
-  // '<rootDir>/../../node_modules/',
-  // ],
   transform: {
     '^.+\\.jsx?$': '<rootDir>/../../node_modules/babel-jest',
     '^.+\\.tsx?$': 'ts-jest',
@@ -21,6 +16,4 @@ module.exports = {
     'android.ts',
     'android.tsx',
   ],
-  // moduleDirectories: ['node_modules', '../../node_modules'],
-  // verbose: true,
 }

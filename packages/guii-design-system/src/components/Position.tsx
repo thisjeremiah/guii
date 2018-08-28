@@ -1,9 +1,8 @@
 import { View } from 'react-primitives'
 import styled from 'styled-components'
 import ss from 'styled-system'
-import { ExtractProps } from '../utils'
+import { ViewProps } from '../utils'
 
-type ViewProps = ExtractProps<typeof View>
 export interface PositionProps
   extends ss.WidthProps,
     ss.SpaceProps,
@@ -14,7 +13,7 @@ export interface PositionProps
     ss.AlignSelfProps,
     ViewProps {}
 
-export const Position = styled<PositionProps>(View)`
+export const Position = styled<PositionProps>(View as any)`
   ${ss.width};
   ${ss.fontSize};
   ${ss.color};

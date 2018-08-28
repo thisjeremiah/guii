@@ -1,9 +1,9 @@
 import { View } from 'react-primitives'
 import styled from 'styled-components'
 import ss from 'styled-system'
-import { ExtractProps } from '../utils'
 
-type ViewProps = ExtractProps<typeof View>
+import { ViewProps } from '../utils'
+
 export interface ArrowProps
   extends ss.WidthProps,
     ss.SpaceProps,

@@ -1,9 +1,7 @@
 import { Touchable } from 'react-primitives'
 import styled from 'styled-components'
 import ss from 'styled-system'
-import { ExtractProps } from '../utils'
-
-type TouchableProps = ExtractProps<typeof Touchable>
+import { TouchableProps } from '../utils'
 
 export interface ButtonProps
   extends ss.FontSizeProps,
@@ -16,7 +14,7 @@ export interface ButtonProps
     ss.BorderProps,
     TouchableProps {}
 
-export const Button = styled<ButtonProps>(Touchable)`
+export const Button = styled<ButtonProps>(Touchable as any)`
   ${ss.fontSize};
   ${ss.fontWeight};
   ${ss.lineHeight};

@@ -2,9 +2,8 @@ import * as React from 'react'
 import { View } from 'react-primitives'
 import styled from 'styled-components'
 import ss from 'styled-system'
-import { ExtractProps } from '../utils'
+import { ViewProps } from '../utils'
 
-type ViewProps = ExtractProps<typeof View>
 export interface BoxProps
   extends ss.WidthProps,
     ss.SpaceProps,
@@ -15,7 +14,7 @@ export interface BoxProps
     ss.AlignSelfProps,
     ViewProps {}
 
-export const Box = styled<BoxProps>(View)`
+export const Box = styled<BoxProps>(View as any)`
   ${ss.width};
   ${ss.space};
   ${ss.fontSize};
@@ -35,7 +34,7 @@ export interface FlexProps
     ss.JustifyContentProps,
     BoxProps {}
 
-export const Flex = styled(Box)`
+export const Flex = styled(Box as any)`
   ${ss.flexWrap};
   ${ss.flexDirection};
   ${ss.alignItems};
