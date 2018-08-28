@@ -1,6 +1,6 @@
 import { Touchable } from 'react-primitives'
 import styled from 'styled-components'
-import ss from 'styled-system'
+import * as ss from 'styled-system'
 import { TouchableProps } from '../utils'
 
 export interface ButtonProps

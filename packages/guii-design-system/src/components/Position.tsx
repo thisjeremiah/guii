@@ -1,6 +1,6 @@
 import { View } from 'react-primitives'
 import styled from 'styled-components'
-import ss from 'styled-system'
+import * as ss from 'styled-system'
 import { ViewProps } from '../utils'
 
 export interface PositionProps

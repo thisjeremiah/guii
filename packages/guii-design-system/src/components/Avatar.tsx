@@ -1,6 +1,6 @@
 import { Image } from 'react-primitives'
 import styled from 'styled-components'
-import ss from 'styled-system'
+import * as ss from 'styled-system'
 
 import { ImageProps } from '../utils'
 
